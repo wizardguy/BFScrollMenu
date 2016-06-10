@@ -1,9 +1,10 @@
 //
 //  UIViewController+BFScroll.h
-//  ScrollHiddenMenuTest
 //
-//  Created by Dennis on 5/6/2016.
+//  Created by wizardguy(Bigfeet) on 5/6/2016.
 //  Copyright © 2016 Dennis. All rights reserved.
+//
+//  GitHub: https://github.com/wizardguy/BFScrollMenu
 //
 
 #import <UIKit/UIKit.h>
