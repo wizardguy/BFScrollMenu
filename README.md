@@ -1,6 +1,10 @@
 # BFScrollMenu
 A UIViewController extension category that manipulate a view which associated with a scroll view.
 
+### Demo
+
+ ![image](https://github.com/wizardguy/screenshots/raw/master/BFScrollMenuDemo.gif)
+
 ### User case:
 When you need a menu view do corresponding action when scrolling up or down the scrolling view (which mostly it is a table view), you can use UIViewController+BFScroll category to accomplish it. For example, if you want to hide the menu view when scrolling up and show it again when scrolling down.
 
