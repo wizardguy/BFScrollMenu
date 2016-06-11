@@ -11,14 +11,18 @@ When you need a menu view do corresponding action when scrolling up or down the 
 ### Usage:
 It is very simple to use this category. Just setup it in your viewcontroller using corresponding blocks using the setting-up method:
 
+```Objective-C
 	- (void)setUpDelegateClass:(Class _Nonnull)delegateClass
             	      MenuView:(UIView * _Nonnull )menuView
                 conditionBlock:(BFConditionBlock _Nullable)condition
          	  scrollActionBlock:(BFActionBlock _Nullable)scrollAction
            		stopActionBlock:(BFActionBlock _Nullable)stopAction;
+```
 
 For example:
 
+
+```Objective-C
 	// create your menu view ...
 	self.menuView = [[UIView alloc] initWithFrame:CGRectMake(0, 21, [UIScreen mainScreen].bounds.size.width, 80)];
 	...
@@ -39,4 +43,4 @@ For example:
     
     // Set up
     [self setUpDelegateClass:[self class] MenuView:self.menuView conditionBlock:nil scrollActionBlock:scroll stopActionBlock:nil];
-
+```
